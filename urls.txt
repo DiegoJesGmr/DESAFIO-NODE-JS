@@ -1,0 +1,8 @@
+http://localhost:3000/users?_sort=country&_order=asc / des || para usar varios, en sort = usar , para separar los filtros, haciendo lo mismo en order, debe ser en el orden en el cual se escribieron antes.
+http://localhost:3000/users?_start=20&_end=30 // start = desde que n° de obj arranca | end = donde termina | usar limit para limitar la cantidad
+http://localhost:3000/users?id_ne=1 // cambiar valor de ne para elegir que obj ignorar
+
+http://localhost:3000/users?id=1&id=2 // cambiar, agregar los id = para solo mostrar los obj q queramos
+http://localhost:3000/users?q=Paige // Cambiar paige por cualquier texto que se quiera buscar en el array.
+http://localhost:3000/users?_embed=email // Filtrar por aquellos que tengan "email" dentro de sus atributos
+http://localhost:3000/users/1 //cambiar 1 para acceder a cualquier numero de obj que querramos ir
